@@ -1,0 +1,37 @@
+<html>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>NTUH Video</title>
+  <link href='https://fonts.googleapis.com/css?family=Noto Sans' rel='stylesheet'>
+  <style>
+    @import url({{url_for('static',filename='css/notosanstc.css')}})
+    html, body{overflow:auto;}
+    <!--* {-->
+      <!--font-family: sans-serif;-->
+    <!--}-->
+    body{
+      <!--font-family: 'Noto Sans TC', sans-serif;-->
+	  font-family: 'Noto Sans';
+      <!--font-family: sans-serif;-->
+      height: 100vh
+      width: 100vw;
+      margin:0;
+      background-color:#4b4b4b;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="content" style="background-color:#4b4b4b;width: calc(100vw - 10vh);height:90vh;padding:5vh">
+    <input id="btn1" type="button" style="width: calc(100vw - 10vh);height:18vh;font-size:10vmin" value="陪病者" onclick="location.href='https://www.youtube.com/';"/>
+	<div style="background-color:#4b4b4b;height:18vh"></div>
+	<input id="btn2" type="button" style="width: calc(100vw - 10vh);height:18vh;font-size:10vmin" value="探病者" onclick="location.href='https://www.aiphas.tech/';"/>
+	<div style="background-color:#4b4b4b;height:18vh"></div>
+	<input id="btn3" type="button" style="width: calc(100vw - 10vh);height:18vh;font-size:10vmin" value="病人" onclick="location.href='https://www.google.com/';"/>
+  </div>
+</body>
+</html>
